@@ -1,0 +1,139 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+    color: #000;
+    margin: 0;
+}
+
+hr {
+    border-top: 1px solid #444;
+}
+
+.container {
+
+}
+
+.title {
+    display: flex;
+    font-size: 3em;
+    
+    height: 80px;
+    margin: 60px 40px;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    padding: 0px 30px;
+}
+
+.main{
+   background-image: url("../images/home4.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color: #fff;
+  padding: 80px 40px;
+  background-attachment: fixed;
+  margin: 40px 0px;
+}
+.main span {
+    font-size: 20px;
+}
+.main p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.info {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.info span {
+    color: #86c232;
+    font-size: 20px;
+}
+
+.info_blur{
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    background-color: #111a;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    margin: 100px;
+}
+.footer a{
+    color: #444;
+    display: block;
+}
+.footer span {
+    font-size: 20px;
+}
+/* navigation bar */
+
+ul{
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+    border: solid #61892f;
+}
+
+
+li a,.dropbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 50px;
+    transition: all 0.3s ease-out;
+
+}
+
+li a:hover, .dropdown:hover {
+    background-color: #61892f;
+    color: #fff;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content{
+    opacity: 0;
+    position: absolute;
+    background-color:  #474b4f;
+    transition: all 0.3s ease-out;
+    z-index: -1;
+}
+
+.dropdown-content a {
+    color: #ccc;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* image slider */
+.slider {
+    text-align: center;
+}
+.slider img {
+    width: 0%;
+    
+}
