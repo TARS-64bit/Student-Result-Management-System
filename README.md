@@ -7,9 +7,4 @@ video demo - https://youtu.be/tm0XTuFnzx8
 * Install XAMP
 * Add the database file 
 
-### contact ###
-projectworldsofficial@gmail.com
-
-more projects website - https://projectworlds.in
-
 
